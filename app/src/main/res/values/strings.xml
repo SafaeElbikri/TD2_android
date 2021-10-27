@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Home page</string>
+    <string name="entree">Entree :</string>
+    <string name="plat_principal">Plat principal :</string>
+    <string name="fromage">Fromage</string>
+    <string name="fruit">Fruit</string>
+    <string name="soir">Soir</string>
+    <string name="midi">Midi</string>
+    <string name="etat_ciel">Etat du ciel</string>
+</resources>
