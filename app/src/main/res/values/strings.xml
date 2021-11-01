@@ -6,5 +6,7 @@
     <string name="fruit">Fruit</string>
     <string name="soir">Soir</string>
     <string name="midi">Midi</string>
-    <string name="etat_ciel">Etat du ciel</string>
+    <string name="state">Etat du ciel :</string>
+    <string name="temperature">Température :</string>
+    <string name="vitesse">Vitesse du vent :</string>
 </resources>
