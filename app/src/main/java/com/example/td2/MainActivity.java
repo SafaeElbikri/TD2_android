@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.meteo);
-        Spinner spinner = findViewById(R.id.state);
+        setContentView(R.layout.repas);
+        /*Spinner spinner = findViewById(R.id.state);
         spinner.setOnItemSelectedListener(this);
         ArrayAdapter ad
                 = new ArrayAdapter(
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ad.setDropDownViewResource(
                 android.R.layout
                         .simple_spinner_dropdown_item);
-        spinner.setAdapter(ad);
+        spinner.setAdapter(ad);*/
 
     }
 

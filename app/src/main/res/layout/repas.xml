@@ -6,37 +6,50 @@
     android:layout_marginTop="10dp"
     android:layout_marginLeft="10dp">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_weight="5"
-            android:layout_height="wrap_content"
-            android:text="@string/entree"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titre"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
         <EditText
-            android:id="@+id/entry"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_weight="5"
+            android:id="@+id/entree"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:text="@string/plat_principal"/>
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="@string/entree" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
         <EditText
             android:id="@+id/plat"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="@string/plat_principal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
         <CheckBox android:id="@+id/checkbox_meat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +63,9 @@
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
         <RadioButton android:id="@+id/soir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,12 +75,14 @@
             android:layout_height="wrap_content"
             android:text="@string/midi"/>
     </RadioGroup>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
         <Button
-            android:text="Valider"
+            android:text="@string/valider"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"/>
@@ -73,9 +90,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Annuler" />
+            android:text="@string/annuler" />
 
     </LinearLayout>
-
 
 </LinearLayout>
